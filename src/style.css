@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  box-sizing: border-box;
+}
+#card {
+  background-color: white;
+  margin: auto;
+  width: 400px;
+  height: 560px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.top {
+  margin-left: 15px;
+  margin-top: -15px;
+  font-size: 100px;
+}
+.number {
+  font-size: 120px;
+  text-align: center;
+  padding-top: 45px;
+}
+.bottom {
+  text-align: right;
+  padding-top: 50px;
+  margin-right: 15px;
+  font-size: 100px;
+}
+.button-newCard {
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+  font-family: fantasy;
+  font-size: 25px;
+}
